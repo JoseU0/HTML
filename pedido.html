@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pastelería Cosmos</title>
+
+    <style>
+
+table {
+  border-spacing: 12px;
+}
+        </style>
+</head>
+<body>
+    <!-- Headings -->
+    <h1>Bienvenido a Hacer tu Pedido de la Pasteleria Cosmos</h1>
+    <h2>Aquí se hace el pedido</h2>
+    <img src= "./assets/Imagenes/pastel.png" alt = "logo pasteleria" width="150px">
+    <form action="pedido.js">
+        <label for ="Nombre"> Danos tu Nombre de favor:</label><br>
+        <input type ="text" id ="Nombre" name ="Nombre" placeholder="Nombre">
+        <br><br>
+        <label for ="mesa"> Cúal es tu número de mesa? </label><br>
+        <input type ="number" id ="mesa" name ="mesa" placeholder="1">  
+        <br><br>
+
+        <p>Cuál sería su pedido:</p>
+        <input type = "checkbox" id = "Pastel Galático" name = "Pastel Galático" value ="Pastel Galático">
+        <label for ="Pastel Galático">Pastel Galático</label>
+        <br>
+        <input type = "checkbox" id = "Pastel Estrellado" name = "Pastel Estrellado" value ="Pastel Estrellado">
+        <label for ="Pastel Estrellado">Pastel Estrellado</label>
+        <br>
+        <input type = "checkbox" id = "Pastel La vuelta a la luna" name = "Pastel La vuelta a la luna" value ="Pastel La vuelta a la luna">
+        <label for ="Pastel La vuelta a la luna">Pastel La vuelta a la luna</label>
+        <br>
+        <input type = "checkbox" id = "Pastel Big Bang" name = "Pastel Big Bang" value ="Pastel Big Bang">
+        <label for ="Pastel Big Bang">Pastel Big Bang</label>
+        <br>
+        <p>Pastel Galático (De Chocolate)................................................................. $300.00</p>
+        <p>Pastel Estrellado(Pastel Arcoiris de Vainilla)............................................ $300.00</p>
+        <p>Pastel La vuelta a la luna (Pastel de Doble Chocolate)............................. $300.00</p>
+        <p>Pastel Big Bang (Pastel de Tres Leches con Avellana)............................. $300.00</p>
+        <p>Pastel Jupiter (Pastel Napolitano un poco de todo!)................................. $450.00</p>
+    
+        <p>Desea ingrediente extra</p>
+            <!-- Listas -->
+    <ul> 
+                <li> Fresas ..................................$35 </li>
+                <li> Nutella .................................$30 </li>
+                <li> Queso Philadelfia ................$30 </li>
+                <li> Chispas de Chocolate ..........$25 </li>
+    </ul>
+        <input type ="radio" id ="Si" name ="Ing_extra" placeholder="Si">
+        <label for ="Si"> Si <br><br>
+            <input type = "checkbox" id = "Fresa" name = "Fresa" value ="Fresa">
+            <label for ="Fresa">Fresa</label>
+            <br>
+            <input type = "checkbox" id = "Nutella" name = "Nutella" value ="Nutella">
+            <label for ="Nutella">Nutella</label>
+            <br>
+            <input type = "checkbox" id = "Queso Philadelfia" name = "Queso Philadelfia" value ="Queso Philadelfia">
+            <label for ="Queso Philadelfia">Queso Philadelfia</label>
+            <br>
+            <input type = "checkbox" id = "Chispas de Chocolate" name = "Chispas de Chocolate" value ="Chispas de Chocolate">
+            <label for ="Chispas de Chocolate">Chispas de Chocolate</label>
+
+        </label>
+
+        <br><br>
+        <input type ="radio" id ="No" name ="Ing_extra" placeholder="No">
+        <label for ="No"> No </label>
+    
+    </form>
+
+    <input type="reset">
+    <input type="submit">
+
+    <br>
+    <table>
+        <tr>
+            <th>Dirección</th>
+            <th>Contacto </th>
+            <th>Horarios de Servicio</th>
+        </tr>
+        <tr>
+            <td>Alfreds Lupkit 56 Cuidad de México</td>
+            <td>pasteleriacosmos@gmail.com 556584796        </td>
+            <td>De Martes a Sábado de 8:00 am a 10:00pm </td>
+        </tr>
+       
+    </table>
+
+
+</body>
+</html>
